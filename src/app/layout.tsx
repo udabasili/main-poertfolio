@@ -4,7 +4,7 @@ import "./globals.css";
 import StyledJsxRegistry from './lib/registry';
 import { header, paragraph } from './constant/font';
 import colors from './constant/color';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: " Home | Udendu Portfolio   | Great Website Developer",
@@ -68,9 +68,9 @@ export default function RootLayout({
         />
 
       </head>
-
       <body>
         <Analytics />
+        <SpeedInsights />
         <StyledJsxRegistry>{children}</StyledJsxRegistry>
       </body>
     </html>
