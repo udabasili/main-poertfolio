@@ -10,7 +10,7 @@ import { AOSInit } from './lib/aos';
 
 export const metadata: Metadata = {
   title: " Home  ! Expert Freelance Web Developer | JavaScript, C#, Java, Node.js | Canada & US",
-  description: "A top SEO description for a freelance web developer in Canada and the United States specializing in JavaScript, C#, Java, and Node.js could be: Experienced freelance web developer in Canada and the United States, offering expertise in JavaScript, C#, Java, and Node.js. Proven track record in delivering high-quality, customized web solutions for businesses of all sizes. Get professional web development services tailored to your needs today",
+  description: "Welcome to the digital realm of Udendu Abasili, your trusted freelance web developer for US and Canada clients. Elevate your online presence with bespoke websites and cutting-edge solutions tailored to your business needs. Partner with us to transform your vision into stunning reality and stand out in today's competitive digital landscape",
   generator: 'Next.js',
   applicationName: 'Next.js',
   referrer: 'origin-when-cross-origin',
