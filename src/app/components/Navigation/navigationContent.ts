@@ -17,13 +17,14 @@ export const navData: NavProps[] = [
 		href: '/services',
 	},
 	{
-		name: 'projects',
-		href: '/projects',
-	},
-	{
 		name: 'Websites Samples',
 		href: '/websites',
 	},
+	{
+		name: 'projects',
+		href: '/projects',
+	},
+
 	{
 		name: 'contact',
 		href: '/contact',
