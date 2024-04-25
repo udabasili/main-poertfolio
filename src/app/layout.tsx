@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   description: "Welcome to the digital realm of Udendu Abasili, your trusted freelance web developer for US and Canada clients. Elevate your online presence with bespoke websites and cutting-edge solutions tailored to your business needs. Partner with us to transform your vision into stunning reality and stand out in today's competitive digital landscape",
   generator: 'Next.js',
   applicationName: 'Next.js',
+  alternates: {
+    canonical: 'https://www.udabasili.online/',
+  },
   referrer: 'origin-when-cross-origin',
   keywords: ["Freelance Web Developer Canada", "Freelance Web Developer United States", "JavaScript Developer Canada", "JavaScript Developer United States", "C# Developer Canada", "C# Developer United States", "Java Developer Canada", "Java Developer United States", "Node.js Developer Canada", "Node.js Developer United States"],
   authors: [{ name: 'Udendu Abasili', url: 'https://www.udabasili.online/' }],
@@ -35,7 +38,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: " Home | Udendu Portfolio   | Great Website Developer",
-    description: "A top SEO description for a freelance web developer in Canada and the United States specializing in JavaScript, C#, Java, and Node.js could be: Experienced freelance web developer in Canada and the United States, offering expertise in JavaScript, C#, Java, and Node.js. Proven track record in delivering high-quality, customized web solutions for businesses of all sizes. Get professional web development services tailored to your needs today",
+    description: "Welcome to the digital realm of Udendu Abasili, your trusted freelance web developer for US and Canada clients. Elevate your online presence with bespoke websites and cutting-edge solutions tailored to your business needs. Partner with us to transform your vision into stunning reality and stand out in today's competitive digital landscape",
     url: 'https://www.udabasili.online/',
     siteName: 'Udendu Portfolio',
     locale: 'en_US',
