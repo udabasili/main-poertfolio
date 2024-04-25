@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
+import 'aos/dist/aos.css';
 import StyledJsxRegistry from './lib/registry';
 import { header, paragraph } from './constant/font';
 import colors from './constant/color';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { AOSInit } from './lib/aos';
 
 export const metadata: Metadata = {
-  title: " Home | Udendu Portfolio   | Great Website Developer",
+  title: " Home  ! Expert Freelance Web Developer | JavaScript, C#, Java, Node.js | Canada & US",
   description: "A top SEO description for a freelance web developer in Canada and the United States specializing in JavaScript, C#, Java, and Node.js could be: Experienced freelance web developer in Canada and the United States, offering expertise in JavaScript, C#, Java, and Node.js. Proven track record in delivering high-quality, customized web solutions for businesses of all sizes. Get professional web development services tailored to your needs today",
   generator: 'Next.js',
   applicationName: 'Next.js',
@@ -49,6 +51,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <AOSInit />
+
       <head>
         <style
           dangerouslySetInnerHTML={{

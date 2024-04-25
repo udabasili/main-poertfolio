@@ -1,25 +1,28 @@
 export const portfolioDetails = [
-	// {
-	// 	Timestamp: '29/06/2021 15:23:38',
-	// 	'Project name': 'Pixel Shop',
-	// 	Summary:
-	// 		'This is a photo editing application mostly built with Python libraries such as OpenCV, PIL Front built with Jinja is a web template engine. Features include Rotate, Crop Image, Image Effects, etc',
-	// 	'Lesson Learned':
-	// 		'I learnt a lot working with Python and using the OpenCV for image manipulation and Jinja for template rendering ',
-	// 	'Tech Stack': 'Flask, Jinja2, Python, Heroku',
-	// 	'How to Run': 'Visit the website',
-	// 	'Sample Login Details': '',
-	// 	'Project Purpose and Goal': 'I built this project to enable me have my own personal photo editor. ',
-	// 	'Web Stack and Explanation':
-	// 		'Python was the choice I made to build this project based on the fact that the language already had excellent libraries for image manipulation such as opencv-python and Pillow. ',
-	// 	'Problems and Thought Process':
-	// 		'I started the project by making a breakdown of how I wanted the pages to be divided and what I wanted each page to contain. Then I did my research on using OpenCV and its limitations in relation to image manipulation and using filters. I also had to figure out had to create the resizable and draggable text components that would be added to the image. Simplicity,  quick responsiveness to user interactions and good UI were the most important components for me throughout the process',
-	// 	'Project Link': 'https://pixelshop-app.herokuapp.com/',
-	// 	'GitHub Link': 'https://github.com/udabasili/pixelshop',
-	// 	color: '#d2691e',
-	// 	'Screenshots or animated GIFs':
-	// 		'https://user-images.githubusercontent.com/33573587/110267663-aaa9aa80-7f96-11eb-888f-eacbd0be524f.png,https://user-images.githubusercontent.com/33573587/110267661-aa111400-7f96-11eb-9877-0200d6c88777.png,https://user-images.githubusercontent.com/33573587/110267664-ab424100-7f96-11eb-8018-a798370a96c3.png',
-	// },
+	{
+		Timestamp: '29/06/2021 15:23:38',
+		'Project name': 'Battlefront',
+		Summary:
+			"This is a two-player game built with C# using Windows Forms in Visual Studio. Players will engage in exciting battles between characters, each with their own attack and defense stats. The objective of the game is to reduce your opponent's HP",
+		'Lesson Learned':
+			'I learnt a lot working with C# and Window Forms on Visual studio in relation to creating multiple screens, navigating, OOP, image manipulation and handling user inputs',
+		'Tech Stack': 'C#, Windows Forms, Visual Studio',
+		'How to Run': 'Visit the GitHub link for the guide for installation and importation',
+		'Sample Login Details': '',
+		'Project Purpose and Goal':
+			'The goal of this project was to build a simple game that would be fun to play and easy to understand. I wanted to create a game that would be easy to play and understand, but also challenging enough to keep players engaged',
+		'Web Stack and Explanation':
+			'I used C# for the Frontend and backend and Windows Forms for the UI. I chose to use C# because of its ease of use and the ability to create multiple screens and navigate between them easily',
+		'Problems and Thought Process': `The most important part of the project was the image manipulation and the handling of user inputs. I had to make sure that the user inputs were properly validated and that the image manipulation was done properly. I also had to deal with multiple screens and navigation between them based on user inputs.
+			I plan to add more features to the game in the future, such as more characters, more attacks, and more defense stats. I also plan to add a multiplayer mode so that players can play against each other.
+			`,
+		'Project Link': 'https://github.com/udabasili/battlefront',
+		'GitHub Link': 'https://github.com/udabasili/battlefront',
+		Video: 'https://github.com/udabasili/battlefront/assets/33573587/146bfe01-738b-4822-93e9-cc22eba1d4e5',
+		color: '#d2691e',
+		'Screenshots or animated GIFs':
+			'https://github.com/udabasili/battlefront/assets/33573587/e5a0adaf-5d38-4c96-83e2-ecdccb1bc2fb,https://github.com/udabasili/battlefront/assets/33573587/ae5b86e6-d368-4f24-82d1-08ad0ad77a90',
+	},
 
 	{
 		Timestamp: '29/06/2021 15:19:26',

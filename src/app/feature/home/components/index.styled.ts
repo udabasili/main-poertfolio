@@ -8,6 +8,11 @@ export const GridRow = styled.div<{ cols: number }>`
 	display: grid;
 	grid-template-columns: ${(props) => `repeat(${props.cols}, 1fr)`};
 
+	${responsive.tabLand} {
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		gap: 2rem;
+	}
+
 	${responsive.tabPort} {
 		grid-template-columns: 1fr;
 		padding: 1rem;
@@ -68,9 +73,17 @@ export const HeaderWrapper = styled.header`
 		display: inline-block;
 		width: 100%;
 		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 
 		${responsive.tabPort} {
 			display: none;
+		}
+
+		figure {
+			width: 70%;
+			height: 70%;
 		}
 	}
 
@@ -79,6 +92,8 @@ export const HeaderWrapper = styled.header`
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
+		width: 100%;
+		padding: 2rem;
 
 		${responsive.tabPort} {
 			position: relative;
@@ -96,6 +111,16 @@ export const HeaderWrapper = styled.header`
 	.heading-primary {
 		text-align: left;
 
+		p {
+			color: white;
+			padding: 1rem 0;
+
+			${responsive.tabPort} {
+				font-size: 1rem;
+				padding: 2rem 0;
+			}
+		}
+
 		${responsive.tabPort} {
 			text-align: center;
 			display: flex;
@@ -106,23 +131,27 @@ export const HeaderWrapper = styled.header`
 	}
 
 	.heading-primary-main {
-		font-size: 6rem;
+		font-size: 3rem;
 		font-family: var(--title);
 		font-weight: 900;
 		color: var(--primary);
 		display: block;
 
 		${responsive.tabPort} {
-			font-size: 4rem;
+			font-size: 2.3rem;
 		}
 	}
 
 	.heading-primary-sub {
 		display: block;
-		font-size: 1rem;
-		font-family: var(--paragraph);
+		font-size: 1.1rem;
+		font-family: var(--content);
 		font-weight: 400;
 		color: white;
+
+		${responsive.tabPort} {
+			font-size: 0.7rem;
+		}
 	}
 `;
 
@@ -143,7 +172,6 @@ export const AboutContent = styled.div`
 
 export const AboutImage = styled.div`
 	width: 100%;
-	height: 80vh;
 	display: grid;
 	grid-template-rows: repeat(6, 1fr);
 	grid-template-columns: repeat(6, 1fr);
@@ -154,6 +182,7 @@ export const AboutImage = styled.div`
 		width: 100%;
 		grid-row: 1 / -1;
 		grid-column: 1 / -1;
+		background-color: black;
 		object-fit: cover;
 	}
 
@@ -212,8 +241,6 @@ export const ServicesCard = styled.div`
 		grid-column: 1 / -1;
 		width: 100% !important;
 		height: 207px !important;
-		object-fit: cover;
-		object-position: top;
 		position: relative;
 	}
 `;
@@ -224,6 +251,10 @@ export const ProjectSummaryWrapper = styled(Section)`
 	.gallery {
 		display: grid;
 		gap: 2rem;
+
+		${responsive.tabPort} {
+			padding: 1rem;
+		}
 
 		&__item {
 			box-shadow: var(--shadow);

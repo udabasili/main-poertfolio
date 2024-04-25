@@ -34,7 +34,7 @@ export const AboutMeSummarySection = styled(Section)``;
 
 export const AboutMePhoto = styled.figure`
 	margin-bottom: 2rem;
-	background-color: red;
+	background-color: black;
 	height: 100%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);

@@ -1,5 +1,5 @@
 const colors = {
-	paragraph: '#858792',
+	paragraph: '#858799',
 	primaryDark: '#45A29E',
 	primary: '#66FCF1',
 	secondary: '#FFE087',

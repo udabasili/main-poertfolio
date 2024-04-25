@@ -17,7 +17,7 @@ export default function Projects() {
     };
 
     return (
-        <Layout>
+        <>
             <CustomPageHeader title={activeTab} link={'websites'} path={'websites'} />
             <TabComponent tabs={tabs} activeTab={activeTab} onTabChange={handleTabChange} />
             {
@@ -28,6 +28,6 @@ export default function Projects() {
                 )
 
             }
-        </Layout>
+        </>
     );
 }

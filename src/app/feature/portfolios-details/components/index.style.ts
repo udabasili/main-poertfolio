@@ -69,12 +69,8 @@ export const PortfolioDetailsContainer = styled.div`
 	}
 
 	.main-image {
-		width: 70vw;
+		grid-column: center-start / center-end;
 		margin: 2rem auto;
-
-		${responsive.mobile} {
-			display: none;
-		}
 	}
 
 	.other-images {

@@ -6,10 +6,10 @@ import { ContactForm, ContactSummary } from '@/feature/contact';
 
 export default function Contact() {
     return (
-        <Layout>
+        <>
             <CustomPageHeader title={'Reach me '} link={'contact'} path={'contact'} />
             <ContactSummary />
             <ContactForm />
-        </Layout>
+        </>
     );
 }

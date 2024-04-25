@@ -2,7 +2,6 @@
 "use client"
 import { ParsedUrlQuery } from 'querystring';
 
-import { GetStaticProps, InferGetStaticPropsType } from 'next';
 import { useEffect } from 'react';
 
 import { CustomPageHeader } from '@/components/Elements/Headers';
@@ -10,6 +9,7 @@ import { portfolioDetails } from '@/feature/projects';
 import { Layout } from '@/components/Layout';
 import { PortfolioDetailsContainer, Summary, Description, MainImage, Goal, WebStack, ThoughtProcess, LessonLearnt } from '@/feature/portfolios-details';
 import { notFound } from 'next/navigation';
+import { Video } from '@/components/Elements';
 
 
 type PortfolioDetail = typeof portfolioDetails[0];
@@ -33,7 +33,7 @@ export default function PortfolioDetail({ params }: { params: { slug: string } }
 
     return (
         portfolioData ? (
-            <Layout >
+            < >
                 {Object.keys(portfolioData).length > 0 ? (
                     <>
                         <CustomPageHeader
@@ -49,7 +49,12 @@ export default function PortfolioDetail({ params }: { params: { slug: string } }
                                 technologies={portfolioData['Tech Stack']}
                             />
                             <Description text={portfolioData.Summary} />
-                            <MainImage images={portfolioData['Screenshots or animated GIFs']} />
+
+                            {
+                                portfolioData['Video'] ? (
+                                    <Video src={portfolioData['Video']} />
+                                ) : <MainImage images={portfolioData['Screenshots or animated GIFs']} />
+                            }
                             <Goal text={portfolioData['Project Purpose and Goal']} />
                             <WebStack
                                 tech={portfolioData['Tech Stack']}
@@ -63,7 +68,7 @@ export default function PortfolioDetail({ params }: { params: { slug: string } }
                         </PortfolioDetailsContainer>
                     </>
                 ) : null}
-            </Layout>
+            </>
         ) : notFound()
     )
 }

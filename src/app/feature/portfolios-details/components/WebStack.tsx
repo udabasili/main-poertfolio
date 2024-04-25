@@ -7,8 +7,8 @@ import { WebStackProps } from '../types';
 export function WebStack({ info }: WebStackProps) {
 	return (
 		<div className="web-stack">
-			<Header3 className=" u-margin-bottom-small text-[#ffffff]">Web Stack</Header3>
-			<p className="paragraph text-[#ffffff]">{info}</p>
+			<Header3 className=" u-margin-bottom-small text-white ">Web Stack</Header3>
+			<p className="paragraph ">{info}</p>
 		</div>
 	);
 }

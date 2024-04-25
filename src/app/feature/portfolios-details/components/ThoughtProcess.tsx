@@ -9,8 +9,8 @@ interface ThoughtProcessProps {
 export const ThoughtProcess = ({ text }: ThoughtProcessProps) => {
 	return (
 		<div className="thought-process">
-			<Header3 className="u-margin-bottom-small text-[#ffffff]">Thought Process</Header3>
-			<p className="paragraph text-[#ffffff]">{text}</p>
+			<Header3 className="u-margin-bottom-small text-white ">Thought Process</Header3>
+			<p className="paragraph ">{text}</p>
 		</div>
 	);
 };

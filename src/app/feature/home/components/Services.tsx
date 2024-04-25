@@ -4,6 +4,7 @@ import { Header6, Header3, Button } from '@/components/Elements'
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import Image from 'next/image';
 import { servicesData } from '@/feature/services';
+import Link from 'next/link';
 
 
 type Services = {
@@ -20,10 +21,12 @@ export const Services = () => {
                     <ServicesHeading>
                         <Header6 className="u-margin-bottom-small text-primary flex">
                             <MdKeyboardDoubleArrowRight />
-                            <span className="u-margin-left-small">Who am I?</span>
+                            <span className="u-margin-left-small">Services I Offer</span>
                         </Header6>
                         <Header3 className="u-margin-bottom-medium text-white capitalize">here to bring your concepts to life</Header3>
-                        <Button size="md" variant="primary">Learn More</Button>
+                        <Button size="md" variant="primary">
+                            <Link href="/services">View All Services</Link>
+                        </Button>
                     </ServicesHeading>
                 </GridItem>
                 <GridItem className='col-span-2'>

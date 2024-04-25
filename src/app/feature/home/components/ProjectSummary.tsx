@@ -21,7 +21,7 @@ export const ProjectSummary = () => {
             </div>
             <div className="gallery">
                 {images.map((image, index) => (
-                    <figure className={`gallery__item gallery__item--${index + 1}`} key={index + 1}>
+                    <figure className={`gallery__item gallery__item--${index + 1}`} key={index + 1} data-aos="fade-right">
                         <Image
                             src={image}
                             alt={`gallery__item--${index + 1}`}

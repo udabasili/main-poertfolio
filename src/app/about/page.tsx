@@ -12,7 +12,7 @@ export default function About() {
     const [activeTab, setActiveTab] = useState<TabComponentProps>('experience');
 
     return (
-        <Layout>
+        <>
             <CustomPageHeader title={'About Me '} link={'about'} path={'about'} />
             <AboutMeSummary />
             {/* <TabComponent activeTab={activeTab} setActiveTab={setActiveTab} />
@@ -23,6 +23,6 @@ export default function About() {
                     <Education />
                 )
             } */}
-        </Layout>
+        </>
     );
 }

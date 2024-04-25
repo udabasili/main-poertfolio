@@ -16,7 +16,7 @@ export const Container = styled.div`
 	font-size: 1.125rem;
 	background-color: #1F2833;
 
-	${responsive.tabLand} {
+	${responsive.tabPort} {
 		grid-template-columns:
 			[full-start] minmax(2rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 15rem) [col-end])
 			[center-end] minmax(2rem, 1fr)
