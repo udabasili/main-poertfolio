@@ -45,7 +45,7 @@ export const portfolioDetails = [
 		color: '#6a9325',
 		'Screenshots or animated GIFs': `https://user-images.githubusercontent.com/33573587/215442031-2cfbd74e-6435-456d-8a80-5ee3c1c8c26c.png,
 https://user-images.githubusercontent.com/33573587/215442047-de4a7a94-0939-4c7e-b0f4-a2233cbfaccc.png,
-https://user-images.githubusercontent.com/33573587/215442051-e0ed11e7-9fac-4e2d-bdcc-adc8cd6a5c7c.png',`,
+https://user-images.githubusercontent.com/33573587/215442051-e0ed11e7-9fac-4e2d-bdcc-adc8cd6a5c7c.png`,
 	},
 
 	{
