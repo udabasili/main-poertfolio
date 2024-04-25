@@ -14,8 +14,10 @@ export const AboutMeSummary = () => {
 						<Image
 							src="/home/owner.jpeg"
 							alt="Udendu Abasili"
-							width={400}
-							height={400}
+							fill
+							sizes="(max-width: 768px) 100vw,
+					(max-width: 1200px) 50vw,
+					33vw"
 						/>
 					</AboutMePhoto>
 				</GridItem>

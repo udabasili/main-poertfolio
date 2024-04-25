@@ -38,7 +38,9 @@ export const Services = () => {
                                     <span className="number">{(index + 1).toString().padStart(2, '0')}</span>
                                     <Header3 className="u-margin-bottom-medium text-white capitalize">{service.title}</Header3>
                                     <figure className="img relative">
-                                        <Image src={service.image} alt={service.title} fill />
+                                        <Image src={service.image} alt={service.title} fill sizes="(max-width: 768px) 100vw,
+					(max-width: 1200px) 50vw,
+					33vw"/>
 
                                     </figure>
                                 </ServicesCard>

@@ -4,7 +4,7 @@ import "../globals.css";
 import { Layout } from '@/components/Layout';
 
 export const metadata: Metadata = {
-  title: " Projects Details  ! Expert Freelance Web Developer | JavaScript, C#, Java, Node.js | Canada & US ",
+  title: " Projects | Expert Freelance Web Developer | JavaScript, C#, Java, Node.js | Canada & US ",
 };
 
 export default function RootLayout({

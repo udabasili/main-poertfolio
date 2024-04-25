@@ -1,7 +1,6 @@
 import React from 'react'
 import { GridItem, GridRow, WebDevelopmentCard, WebDevelopmentSection } from './index.styled'
 import Image from 'next/image'
-import { Header3, Header4, Header5, Header6 } from '@/components/Elements'
 
 const websites = [
   {
@@ -44,7 +43,11 @@ export const WebDevelopment = () => {
             <GridItem key={website.title}>
               <WebDevelopmentCard>
                 <figure className="w-full h-full object-cover mb-8 bg-background">
-                  <Image src={website.imageUrl} alt={website.title} fill />
+                  <Image src={website.imageUrl}
+                    alt={website.title}
+                    fill
+                    sizes='(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw'
+                  />
                 </figure>
                 <span className="title">{website.title}</span>
                 <span className="category">{website.category}</span>

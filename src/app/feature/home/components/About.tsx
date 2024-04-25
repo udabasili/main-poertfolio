@@ -1,6 +1,6 @@
 import React from 'react'
 import { AboutContent, AboutImage, AboutWrapper, GridItem, GridRow } from './index.styled'
-import { Header3, Header4, Header6 } from '@/components/Elements'
+import { Header3, Header6 } from '@/components/Elements'
 import Image from 'next/image';
 
 
@@ -11,7 +11,14 @@ export const About = () => {
                 <GridItem>
                     <AboutImage>
                         <figure className="img-1  " data-aos="fade-right">
-                            <Image src="/home/owner.jpeg" alt="about" fill className='img-1' />
+                            <Image src="/home/owner.jpeg"
+                                alt="about"
+                                fill
+                                className='img-1'
+                                priority
+                                sizes="(max-width: 768px) 100vw,
+					(max-width: 1200px) 50vw,
+					33vw"/>
                         </figure>
                         <figure className="img-2" data-aos="fade-right">
                             <Image src="/logo.png" alt="about" className='img-2' fill />

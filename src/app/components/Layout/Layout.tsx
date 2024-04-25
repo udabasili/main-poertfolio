@@ -1,10 +1,11 @@
 "use client"
-import React, { HTMLAttributes, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Container, Main } from './Layout.styled'
 import { MainNavigation } from '../Navigation'
-import { header, paragraph } from '@/constant/font'
-import colors from '@/constant/color'
 import { Footer } from '../Footer'
+import { usePathname } from 'next/navigation'
+import Head from 'next/head';
+
 
 type LayoutProps = {
     children: React.ReactNode
@@ -14,6 +15,10 @@ export const Layout = ({ children }: LayoutProps) => {
 
     const [sticky, setSticky] = useState(false)
     const ref = React.useRef<HTMLDivElement>(null)
+    const path = usePathname();
+    const canonicalUrl = `https://www.udabasili.online${path}`;
+
+
 
     useEffect(() => {
         if (window !== undefined && ref.current !== null) {
@@ -45,6 +50,9 @@ export const Layout = ({ children }: LayoutProps) => {
 
     return (
         <Container >
+            <Head>
+                <link rel="canonical" href={canonicalUrl} />
+            </Head>
             <MainNavigation ref={ref} />
             <Main>{children}</Main>
             <Footer />

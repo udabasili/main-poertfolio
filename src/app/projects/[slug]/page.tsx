@@ -18,6 +18,8 @@ interface CtxCustom extends ParsedUrlQuery {
     pid: string;
 }
 
+
+
 export default function PortfolioDetail({ params }: { params: { slug: string } }) {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -74,34 +76,3 @@ export default function PortfolioDetail({ params }: { params: { slug: string } }
 }
 
 
-
-
-// "use client"
-// import { CustomPageHeader } from '@/components/Elements';
-// import { Layout } from '@/components/Layout';
-// import { portfolioDetails } from '@/feature/projects';
-// import { notFound } from 'next/navigation';
-// import { PortfolioDetailsContainer, Summary, Description, MainImage, Goal, WebStack, ThoughtProcess, LessonLearnt } from '@/feature/portfolios-details';
-
-// export default function Page({ params }: { params: { slug: string } }) {
-//     const { slug } = params;
-//     if (!slug) {
-//         return notFound()
-//     }
-//     const url = decodeURIComponent(slug);
-//     const foundProject = portfolioDetails.find((project) => project['Project name'].toLowerCase() === url);
-
-//     return (
-//         foundProject ?
-//             <Layout>
-//                 <CustomPageHeader title={foundProject['Project name']} link={`projects*${foundProject['Project name']}`} path={'projects'} />
-//                 <div>
-//                     <h1>{foundProject['Project name']}</h1>
-//                     <p>{foundProject.Summary}</p>
-//                     <a href={foundProject['Project Link']}>Project Link</a>
-//                     <a href={foundProject['GitHub Link']}>GitHub Link</a>
-//                 </div>
-//             </Layout> :
-//             notFound()
-//     )
-// }

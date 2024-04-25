@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import StyledJsxRegistry from '../lib/registry';
-import "../globals.css";
 import { Layout } from '@/components/Layout';
 
 export const metadata: Metadata = {
@@ -8,7 +6,7 @@ export const metadata: Metadata = {
 
 };
 
-export default function RootLayout({
+export default function WebsitesLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
