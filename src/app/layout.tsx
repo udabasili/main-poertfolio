@@ -73,6 +73,7 @@ export default function RootLayout({
                     `,
           }}
         />
+        <meta name="trustpilot-one-time-domain-verification-id" content="ea1ac607-0dd2-4ae5-a8d7-1db1ae6da6c7" />
 
       </head>
       <body>
