@@ -4,19 +4,20 @@ import Image from 'next/image'
 
 const websites = [
   {
+
+    title: "Alpha Tech",
+    imageUrl: "/web-dev/Alpha-Tech.png",
+    url: "https://udabasili.github.io/business-1/",
+    category: "Tech Company"
+
+  },
+  {
     title: "American Barber Shop",
     imageUrl: "/web-dev/american-barbershop.png",
     url: "https://udabasili.github.io/american-barbershop/",
     category: "Barbershop"
   },
-  {
 
-    title: "Business Template",
-    imageUrl: "/web-dev/business.png",
-    url: "https://udabasili.github.io/business-1/",
-    category: "Business"
-
-  },
   {
     title: "Real Estate",
     imageUrl: "/web-dev/rental-1.png",
@@ -28,7 +29,16 @@ const websites = [
     imageUrl: "/web-dev/rental-2.png",
     url: "https://udabasili.github.io/rental-2/",
     category: "Real Estate"
-  }
+  },
+  {
+
+    title: "Business Template",
+    imageUrl: "/web-dev/business.png",
+    url: "https://udabasili.github.io/business-1/",
+    category: "Business"
+
+  },
+
 ]
 
 

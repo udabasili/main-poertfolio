@@ -52,6 +52,7 @@ export const Layout = ({ children }: LayoutProps) => {
         <Container >
             <Head>
                 <link rel="canonical" href={canonicalUrl} />
+                <meta name="trustpilot-one-time-domain-verification-id" content="ea1ac607-0dd2-4ae5-a8d7-1db1ae6da6c7" />
             </Head>
             <MainNavigation ref={ref} />
             <Main>{children}</Main>
