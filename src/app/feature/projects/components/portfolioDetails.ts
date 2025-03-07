@@ -63,8 +63,8 @@ export const portfolioDetails = [
 			'ASP.NET Core MVC provided a structured and secure backend, SQL Server ensured efficient data storage, and JavaScript enhanced frontend interactions.',
 		'Problems and Thought Process':
 			'Implementing secure image storage and handling real-time scheduling were key challenges. I integrated a secure file upload system and automated scheduling workflows.',
-		'Project Link': 'https://github.com/your-repo/real-estate-management',
-		'GitHub Link': 'https://github.com/your-repo/real-estate-management',
+		'Project Link': 'https://github.com/user-attachments/assets/064f5c34-b4d6-4c4b-a4e8-8d160f571f90',
+		'GitHub Link': 'https://github.com/udabasili/Real-Estate-Website.git',
 		Video: 'https://github.com/user-attachments/assets/064f5c34-b4d6-4c4b-a4e8-8d160f571f90',
 		color: '#008080',
 		'Screenshots or animated GIFs':
@@ -75,12 +75,12 @@ export const portfolioDetails = [
 		Summary:
 			'A complete rebuild of the Mi’gmawe’l Tplu’taqnn Incorporated website using PHP and WordPress with custom fields to improve usability and content management.',
 		'Tech Stack': 'PHP, WordPress, Custom Fields',
-		'How to Run': 'Visit the website: https://migmawel.org/. It may been updated since the project completion.',
+		'How to Run': 'The website has been modified and is not available for public access. Watch the demo video instead.',
 		'Project Purpose and Goal':
 			'The project aimed to enhance user engagement, streamline content management, and replace Elementor with custom PHP-based components.',
 		'Web Stack and Explanation':
 			'PHP was used for custom functionalities, and WordPress provided a flexible CMS with custom fields for structured content management.',
-		'Project Link': 'https://migmawel.org/',
+		'Project Link': 'https://github.com/udabasili/Employee-Management-System/assets/33573587/135c94cf-442c-4706-b27a-e61f07df07c2',
 		'GitHub Link': '',
 		Video: 'https://github.com/udabasili/Employee-Management-System/assets/33573587/135c94cf-442c-4706-b27a-e61f07df07c2',
 		color: '#F1CC59',

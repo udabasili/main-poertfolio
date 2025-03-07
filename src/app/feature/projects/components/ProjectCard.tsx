@@ -43,13 +43,10 @@ export const ProjectCard = (props: ProjectCardProps) => {
                 <Header3 className="self-center">{name}</Header3>
                 <p className="text-white text-lg lg:text-xl">{summary}</p>
                 <div className="flex col-start-2 text-sm lg:text-md links">
-                    <a href={link} target="_blank" title="github" rel="noopener noreferrer">
-                        {' '}
-                        <span className="website font-title font-normal text-white text-center mr-5 ">Visit Website</span>
-                    </a>
+
                     <Link href={`/projects/${url}`} title="github" rel="noopener noreferrer">
                         {' '}
-                        <span className="detail font-title font-normal text-white text-center">Visit Details</span>
+                        <span className="detail font-title font-normal text-white text-center">View</span>
                     </Link>
                 </div>
             </div>
