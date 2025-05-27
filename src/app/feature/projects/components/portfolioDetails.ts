@@ -3,22 +3,21 @@ export const portfolioDetails = [
 		Timestamp: '06/02/2025 10:30:45',
 		'Project name': 'WorkSphere',
 		Summary:
-			'WorkSphere is a project management and employee salary management system designed to enhance collaboration and efficiency in organizations. It allows businesses to manage projects, employees, salaries, and internal communications in a streamlined interface.',
+			'WorkSphere is a comprehensive enterprise tool integrating project management, payroll, and communication features to boost team collaboration and operational efficiency.',
 		'Lesson Learned':
-			'This project deepened my understanding of building enterprise-grade applications using Angular for the frontend and ASP.NET Core for the backend. I gained experience in implementing role-based access control, managing complex database relationships, and integrating real-time notifications.',
+			'This project enhanced my skills in enterprise application architecture, deepened my knowledge of Angular and ASP.NET Core integration, and taught me effective strategies for role-based security and real-time updates.',
 		'Tech Stack': 'Angular, ASP.NET Core, SQL Server, Tailwind CSS',
 		'How to Run': 'Visit the website: https://work-sphere-app.netlify.app/. Sample logins are already set up for testing.',
-		'Sample Login Details':
-			'Admin credentials: admin@worksphere.com / Password123',
+		'Sample Login Details': 'Admin credentials: admin@worksphere.com / Password123',
 		'Project Purpose and Goal':
 			'WorkSphere aims to provide businesses with an integrated tool for project management, payroll handling, and employee engagement. The goal is to improve productivity and transparency in team operations.',
 		'Web Stack and Explanation':
 			'Angular was used for the frontend due to its strong component structure and efficiency in handling large-scale applications. ASP.NET Core provided a secure and scalable backend, while SQL Server ensured robust data management.',
 		'Problems and Thought Process':
-			'Handling access permissions and ensuring data security was a key challenge. Implementing role-based authentication helped maintain security across different user levels. Future updates will focus on API optimizations and a more user-friendly analytics dashboard.',
+			'Ensuring secure role-based access control and maintaining data integrity were critical challenges. I carefully designed authentication flows and database schemas to support scalable user management. Future work will focus on optimizing APIs and enhancing the analytics dashboard for better usability.',
 		'Project Link': 'https://work-sphere-app.netlify.app/',
 		'GitHub Link': 'https://github.com/udabasili/WorkSphere',
-		Video: 'https://github-production-user-asset-6210df.s3.amazonaws.com/33573587/416052518-449f7a7b-0814-46af-b414-30b57aa1b93a.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250224T172007Z&X-Amz-Expires=300&X-Amz-Signature=6f5f1abb11f1f36b2fa97967b9e42c84ba4aaf0105af5a493019f505e2c9af9e&X-Amz-SignedHeaders=host',
+		Video: 'https://github.com/user-attachments/assets/449f7a7b-0814-46af-b414-30b57aa1b93a',
 		color: '#FF5733',
 		'Screenshots or animated GIFs':
 			'https://github.com/user-attachments/assets/6e5e6aa1-3197-40ea-88ec-5191c149f96f',
@@ -27,11 +26,12 @@ export const portfolioDetails = [
 		Timestamp: '06/01/2025 09:45:12',
 		'Project name': 'CanvasRoom',
 		Summary:
-			'CanvasRoom is a real-time collaboration platform that combines coding, drawing, and messaging in one seamless experience. It allows users to work collaboratively in real time, making it ideal for developers, designers, and teams needing dynamic interaction tools.',
+			'CanvasRoom is an interactive platform enabling real-time collaboration through coding, drawing, and messaging to foster creative teamwork and communication.',
 		'Lesson Learned':
-			'Through this project, I gained extensive experience in full-stack development with technologies like React, Node.js, and Socket.IO. I learned about implementing real-time communication, managing shared state across users, and securing multi-user systems with authentication. Additionally, working with MongoDB reinforced my knowledge of database persistence.',
+			'I significantly expanded my expertise in real-time systems using React and Socket.IO, improved my understanding of shared state management across clients, and reinforced secure multi-user authentication practices.',
 		'Tech Stack': 'React, Node.js, Socket.IO, MongoDB',
-		'How to Run': 'Visit the website: https://canvasroom.onrender.com/. The application may take a bit to load. It allows you to log in as two users for testing purposes.',
+		'How to Run':
+			'Visit the website: https://canvasroom.onrender.com/. The application may take a bit to load. It allows you to log in as two users for testing purposes.',
 		'Sample Login Details':
 			'No sample login details are needed; users can create an account or join a room with secure access.',
 		'Project Purpose and Goal':
@@ -39,7 +39,7 @@ export const portfolioDetails = [
 		'Web Stack and Explanation':
 			'React was used for the frontend due to its component-based architecture and ease of state management. Node.js and Socket.IO handled the backend, enabling real-time communication. MongoDB was chosen for its flexibility in storing user data, code snippets, and drawings, ensuring data persistence.',
 		'Problems and Thought Process':
-			'One of the challenges was ensuring synchronization across multiple users, especially for collaborative coding and drawing. Implementing Socket.IO effectively allowed for real-time updates with minimal latency. Another challenge was creating a secure authentication system, which was resolved by integrating encrypted tokens for room access. Future improvements include enhanced role management, mobile responsiveness, and adding more collaboration tools.',
+			'Maintaining real-time synchronization with minimal latency was challenging. I leveraged Socket.IO to achieve efficient updates and built a secure token-based authentication to protect rooms. Next steps involve improving role management and making the UI fully responsive for mobile users.',
 		'Project Link': 'https://canvasroom.onrender.com/',
 		'GitHub Link': 'https://github.com/udabasili/CanvasRoom',
 		Video: 'https://github.com/user-attachments/assets/f5249c58-8e5e-4146-8928-54d0442b19fd',
@@ -51,9 +51,9 @@ export const portfolioDetails = [
 		Timestamp: '07/03/2025 11:15:30',
 		'Project name': 'Real Estate Management System',
 		Summary:
-			'A web-based platform designed to facilitate real estate transactions for an agency, including property listings, agent management, scheduling showings, and secure image handling.',
+			'A web platform designed to streamline real estate agency operations, including property listings, agent management, appointment scheduling, and secure media handling.',
 		'Lesson Learned':
-			'This project enhanced my experience with ASP.NET Core MVC, SQL Server, and building scalable, secure web applications. I gained expertise in implementing user roles, managing property listings, and integrating secure image handling.',
+			'I improved my skills in ASP.NET Core MVC and database design, focusing on secure user role implementation and handling complex workflows such as scheduling and file uploads.',
 		'Tech Stack': 'ASP.NET Core MVC, SQL Server, JavaScript, HTML, CSS',
 		'How to Run': 'Hosting is not available due to privacy reasons. Watch the demo video instead.',
 		'Sample Login Details': 'Not applicable.',
@@ -62,7 +62,7 @@ export const portfolioDetails = [
 		'Web Stack and Explanation':
 			'ASP.NET Core MVC provided a structured and secure backend, SQL Server ensured efficient data storage, and JavaScript enhanced frontend interactions.',
 		'Problems and Thought Process':
-			'Implementing secure image storage and handling real-time scheduling were key challenges. I integrated a secure file upload system and automated scheduling workflows.',
+			'Securing file uploads and creating seamless scheduling workflows required careful design. I implemented secure storage mechanisms and automated scheduling logic to improve reliability and user experience.',
 		'Project Link': 'https://github.com/user-attachments/assets/064f5c34-b4d6-4c4b-a4e8-8d160f571f90',
 		'GitHub Link': 'https://github.com/udabasili/Real-Estate-Website.git',
 		Video: 'https://github.com/user-attachments/assets/064f5c34-b4d6-4c4b-a4e8-8d160f571f90',
@@ -73,28 +73,30 @@ export const portfolioDetails = [
 	{
 		'Project name': 'MTI Website Rebuild',
 		Summary:
-			'A complete rebuild of the Mi’gmawe’l Tplu’taqnn Incorporated website using PHP and WordPress with custom fields to improve usability and content management.',
+			'Rebuilt the Mi’gmawe’l Tplu’taqnn Incorporated website using PHP and WordPress with custom fields for improved usability and content flexibility.',
 		'Tech Stack': 'PHP, WordPress, Custom Fields',
 		'How to Run': 'The website has been modified and is not available for public access. Watch the demo video instead.',
 		'Project Purpose and Goal':
 			'The project aimed to enhance user engagement, streamline content management, and replace Elementor with custom PHP-based components.',
 		'Web Stack and Explanation':
 			'PHP was used for custom functionalities, and WordPress provided a flexible CMS with custom fields for structured content management.',
-		'Project Link': 'https://github.com/udabasili/Employee-Management-System/assets/33573587/135c94cf-442c-4706-b27a-e61f07df07c2',
+		'Project Link':
+			'https://github.com/udabasili/Employee-Management-System/assets/33573587/135c94cf-442c-4706-b27a-e61f07df07c2',
 		'GitHub Link': '',
-		Video: 'https://github.com/udabasili/Employee-Management-System/assets/33573587/135c94cf-442c-4706-b27a-e61f07df07c2',
+		Video:
+			'https://github.com/udabasili/Employee-Management-System/assets/33573587/135c94cf-442c-4706-b27a-e61f07df07c2',
 		color: '#F1CC59',
-		'Screenshots or animated GIFs': "",
+		'Screenshots or animated GIFs': '',
 		'Lesson Learned':
-			'This project deepened my understanding of PHP, WordPress, and custom fields, and improved my skills in content management and user experience design.',
+			'This project strengthened my PHP and WordPress skills, especially in custom field usage and enhancing CMS user experience design.',
 	},
 	{
 		Timestamp: '29/06/2021 15:33:07',
 		'Project name': 'Vibrant Kit',
 		Summary:
-			'Vibrant Kit is a simple component library UI kit that gives you the building blocks to build your React applications. ',
+			'Vibrant Kit is a customizable React component library designed to provide reusable UI building blocks for scalable application development.',
 		'Lesson Learned':
-			'This project took my React learning to a dimension in terms of using Storybook.js and creating packages with Rollup. This is a project I intend to keep going ',
+			'Developing this project refined my React skills, especially using Storybook.js for component documentation and Rollup for packaging. I plan to continue expanding this library.',
 		'Tech Stack': 'React(NextJS), Typescript, Styled-Component, Storybook Js, CSS',
 		'How to Run': 'Visit the GitHub link for the guide for installation and importation',
 		'Sample Login Details': '',
@@ -103,7 +105,7 @@ export const portfolioDetails = [
 		'Web Stack and Explanation':
 			'I used React for writing the code, Storybook for showing the various components, and CSS and styled-components for styling',
 		'Problems and Thought Process':
-			'I started off using Figma to build the reusable components and just translated it to code with React and Storybook to express the components. Since the project is still on going, I have some components I have not added yet ',
+			'I started off using Figma to design reusable components and translated them to React with Storybook for documentation. The project is ongoing, with more components planned.',
 		'Project Link': 'https://github.com/udabasili/vibrant-kit',
 		'GitHub Link': 'https://github.com/udabasili/vibrant-kit',
 		'Screenshots or animated GIFs':

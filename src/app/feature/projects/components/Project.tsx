@@ -39,6 +39,8 @@ export const Project = () => {
                             link={item['Project Link']}
                             github={item['GitHub Link']}
                             index={index}
+                            videoDemo={
+                            item['Video'] ? item['Video'] : undefined}
                             open={() => openModal(item['Project name'])}
                         />
                     ))}

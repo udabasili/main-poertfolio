@@ -35,14 +35,14 @@ export const Summary = ({ technologies = '', github, link }: SummaryProps) => {
 							</a>
 						</span>
 					</li>
-					<li className="detail__item">
-						<span className="label">Link</span>
-						<span className="value">
-							<a href={link} target="_blank" rel="noopener noreferrer">
-								App Link
-							</a>
-						</span>
-					</li>
+					{/*<li className="detail__item">*/}
+					{/*	<span className="label">Link</span>*/}
+					{/*	<span className="value">*/}
+					{/*		<a href={link} target="_blank" rel="noopener noreferrer">*/}
+					{/*			App Link*/}
+					{/*		</a>*/}
+					{/*	</span>*/}
+					{/*</li>*/}
 				</ul>
 			</div>
 		</div>

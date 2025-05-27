@@ -6,7 +6,6 @@ import { useEffect } from 'react';
 
 import { CustomPageHeader } from '@/components/Elements/Headers';
 import { portfolioDetails } from '@/feature/projects';
-import { Layout } from '@/components/Layout';
 import { PortfolioDetailsContainer, Summary, Description, MainImage, Goal, WebStack, ThoughtProcess, LessonLearnt } from '@/feature/portfolios-details';
 import { notFound } from 'next/navigation';
 import { Video } from '@/components/Elements';
@@ -32,41 +31,54 @@ export default function PortfolioDetail({ params }: { params: { slug: string } }
     }
     const url = decodeURIComponent(slug);
     const portfolioData = portfolioDetails.find((project) => project['Project name'].toLowerCase() === url);
-
+    const {
+        ['Project name']: title,
+        ['GitHub Link']: github,
+        ['Project Link']: link,
+        ['Tech Stack']: technologies,
+        ['Summary']: summary,
+        ['Screenshots or animated GIFs']: screenshots,
+        ['Video']: video,
+        ['Project Purpose and Goal']: goal,
+        ['Web Stack and Explanation']: stackInfo,
+        ['Problems and Thought Process']: thought,
+        ['Lesson Learned']: lesson,
+    } = portfolioData as PortfolioDetail;
     return (
         portfolioData ? (
             < >
                 {Object.keys(portfolioData).length > 0 ? (
                     <>
                         <CustomPageHeader
-                            title={portfolioData['Project name']}
-                            link={`projects*${portfolioData['Project name']}`}
+                            title={title}
+                            link={`projects*${title}`}
                             path={`projects/${slug}`}
                         />
                         <PortfolioDetailsContainer>
                             <Summary
-                                title={portfolioData['Project name']}
-                                github={portfolioData['GitHub Link']}
-                                link={portfolioData['Project Link']}
-                                technologies={portfolioData['Tech Stack']}
+                                title={title}
+                                technologies={technologies}
+                                github={github}
+                                link={link}
+
                             />
-                            <Description text={portfolioData.Summary} />
+                            <Description text={summary} />
 
                             {
-                                portfolioData['Video'] ? (
-                                    <Video src={portfolioData['Video']} />
-                                ) : <MainImage images={portfolioData['Screenshots or animated GIFs']} />
+                                video ? (
+                                    <Video src={video} />
+                                ) : <MainImage images={screenshots} />
                             }
-                            <Goal text={portfolioData['Project Purpose and Goal']} />
+                            <Goal text={goal} />
                             <WebStack
-                                tech={portfolioData['Tech Stack']}
-                                info={portfolioData['Web Stack and Explanation']}
+                                tech={technologies}
+                                info={stackInfo}
                             />
-                            {portfolioData['Problems and Thought Process'] ? (
-                                <ThoughtProcess text={portfolioData['Problems and Thought Process']} />
+                            {thought ? (
+                                <ThoughtProcess text={thought} />
                             ) : null}
 
-                            <LessonLearnt text={portfolioData['Lesson Learned']} />
+                            <LessonLearnt text={lesson} />
                         </PortfolioDetailsContainer>
                     </>
                 ) : null}
