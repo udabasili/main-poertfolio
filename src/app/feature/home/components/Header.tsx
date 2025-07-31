@@ -15,10 +15,6 @@ export const Header = () => {
                             Passion for creating innovative and user-friendly websites drives me to stay updated with the latest industry trends and technologies, ensuring high-quality solutions for clients
                         </p>
                     </h1>
-                    <Link href='/contact'>
-                        <Button variant='primary' size='lg'>Hire me</Button>
-                    </Link>
-
                 </div>
             </div>
             <div className="heading-right">

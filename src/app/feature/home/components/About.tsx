@@ -20,9 +20,7 @@ export const About = () => {
 					(max-width: 1200px) 50vw,
 					33vw"/>
                         </figure>
-                        <figure className="img-2" data-aos="fade-right">
-                            <Image src="/logo.png" alt="about" className='img-2' fill />
-                        </figure>
+
                     </AboutImage>
                 </GridItem>
                 <GridItem>

@@ -8,14 +8,7 @@ export const navData: NavProps[] = [
 		name: 'home',
 		href: '/',
 	},
-	{
-		name: 'about',
-		href: '/about',
-	},
-	{
-		name: 'services',
-		href: '/services',
-	},
+
 	{
 		name: 'Websites Samples',
 		href: '/websites',
@@ -23,6 +16,14 @@ export const navData: NavProps[] = [
 	{
 		name: 'projects',
 		href: '/projects',
+	},
+	{
+		name: 'about',
+		href: '/about',
+	},
+	{
+		name: 'services',
+		href: '/services',
 	},
 
 	{
